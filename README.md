@@ -6,10 +6,10 @@ Flight Status Web App is a cutting-edge, real-time flight information dashboard 
 
 Key Features:
 
-Dynamic Flight Status Updates: Our system continuously monitors flight information, refreshing the dashboard every 30 seconds to display the most current data.
-Instant Notifications: Users receive immediate alerts via email and SMS when flight statuses change, leveraging Spring Mail Service for email communications and Twilio for SMS functionality.
-Mobile-Optimized Design: The responsive layout ensures a consistent and user-friendly experience across desktop and mobile platforms.
-Sleek User Interface: A modern, cloud-themed design enhances readability and user engagement.
+1. Dynamic Flight Status Updates: Our system continuously monitors flight information, refreshing the dashboard every 30 seconds to display the most current data.
+2. Instant Notifications: Users receive immediate alerts via email and SMS when flight statuses change, leveraging Spring Mail Service for email communications and Twilio for SMS functionality.
+3. Mobile-Optimized Design: The responsive layout ensures a consistent and user-friendly experience across desktop and mobile platforms.
+4. Sleek User Interface: A modern, cloud-themed design enhances readability and user engagement.
 
 ## Technologies Used
 
