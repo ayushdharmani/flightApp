@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/85816ff6-b849-4b7a-9bb8-f1fb3edfcfaa)# Getting Started with Flight Status Web App
+# Getting Started with Flight Status Web App
 
 ## Overview
 
@@ -121,7 +121,8 @@ Please find below the basic layout and small functionality of the web app.
 
 1. Frontend Design:
    
-![image](https://github.com/user-attachments/assets/f86a26c5-d005-4a04-9a1e-4321ff53c6d1)
+![image](https://github.com/user-attachments/assets/f92a4b89-2d58-4774-b4a7-49907ff1a0cd)
+
 
 2. Change the status of the flight through Postman
 
