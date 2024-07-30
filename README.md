@@ -117,4 +117,29 @@ For eg:
        "phone": "+919999999999"
      }
 
+Please find below the basic layout and small functionality of the web app.
+
+1. Frontend Design:
+   
+![image](https://github.com/user-attachments/assets/f92a4b89-2d58-4774-b4a7-49907ff1a0cd)
+
+
+2. Change the status of the flight through Postman
+
+![image](https://github.com/user-attachments/assets/92905004-38fd-403c-b602-a8894007db38)
+
+3. Email Update Notification:
+
+![Untitled](https://github.com/user-attachments/assets/78197d04-83d8-45d7-bb31-eb7692414734)
+
+4. SMS Notification
+
+![image](https://github.com/user-attachments/assets/e89ab7eb-0ed8-4239-aa5e-2076cc25ba2b)
+
+5. Status update on site
+
+![image](https://github.com/user-attachments/assets/8be2e68c-3f61-4a27-8d21-6d2f65148f4c)
+
+
+
   
