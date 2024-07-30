@@ -41,10 +41,10 @@ Key Features:
 
 Our backend architecture comprises four robust Java-based APIs, designed to seamlessly integrate with the frontend via React and Axios:
 
-GET /api/flights: Retrieves comprehensive flight details, including unique identifiers, airline information, status, gate assignments, and scheduled times.
-POST /api/flights: Facilitates the addition of new flight entries to the system.
-PATCH /api/flights/update: Enables real-time updates to existing flight information.
-POST /api/customers: Manages customer data associated with specific flights, storing essential information such as name, email, and phone number.
+- GET /api/flights: Retrieves comprehensive flight details, including unique identifiers, airline information, status, gate assignments, and scheduled times.
+- POST /api/flights: Facilitates the addition of new flight entries to the system.
+- PATCH /api/flights/update: Enables real-time updates to existing flight information.
+- POST /api/customers: Manages customer data associated with specific flights, storing essential information such as name, email, and phone number.
 
 These APIs are built with a focus on efficiency and reliability, ensuring smooth data flow between the frontend and backend. The customer registration feature (API #4) is particularly noteworthy, as it enables targeted notifications. Customers are associated with specific flights, allowing for personalized status updates via SMS or email. This tailored approach enhances user experience by providing relevant, timely information to each traveler.
 
