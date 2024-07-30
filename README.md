@@ -39,6 +39,15 @@ Key Features:
 - RESTful API: Designed to serve flight data to the frontend, following REST principles for scalable and maintainable architecture.
 - Spring Mail Service: Integrated for sending email notifications, configured to work with SMTP servers for reliable email delivery.
 
+Our backend architecture comprises four robust Java-based APIs, designed to seamlessly integrate with the frontend via React and Axios:
+
+GET /api/flights: Retrieves comprehensive flight details, including unique identifiers, airline information, status, gate assignments, and scheduled times.
+POST /api/flights: Facilitates the addition of new flight entries to the system.
+PATCH /api/flights/update: Enables real-time updates to existing flight information.
+POST /api/customers: Manages customer data associated with specific flights, storing essential information such as name, email, and phone number.
+
+These APIs are built with a focus on efficiency and reliability, ensuring smooth data flow between the frontend and backend. The customer registration feature (API #4) is particularly noteworthy, as it enables targeted notifications. Customers are associated with specific flights, allowing for personalized status updates via SMS or email. This tailored approach enhances user experience by providing relevant, timely information to each traveler.
+
 ### Notification System:
 
 - Twilio API Integration: Implemented for SMS notifications, allowing real-time text message alerts to users' mobile devices.
@@ -68,3 +77,44 @@ Before you begin, ensure you have met the following requirements:
 - Node.js (v14.0.0 or later)
 - npm (v6.0.0 or later)
 - Java 17
+
+## Setup:
+
+Frontend:
+- Clone the repository.
+- Install the dependencies.
+- Do 'npm start'
+
+Backend:
+- Clone the repository.
+- Build the project
+- Run the project.
+
+## Database Functionality
+- Create a database with name 'flight'.
+- Make two collections
+  1. customers
+  2. flights
+- Add the data for flights, like flight no, status etc.
+For eg:
+   {
+        "flight_id": "6E 2349",
+        "airline": "Indigo",
+        "status": "Delayed",
+        "departure_gate": "A13",
+        "arrival_gate": "B7",
+        "scheduled_departure": "2024-07-26T14:00:00Z",
+        "scheduled_arrival": "2024-07-26T18:00:00Z",
+        "actual_departure": null,
+        "actual_arrival": null
+    }
+- Add the data for customers.
+For eg:
+    {
+       "flightId": "6E 2346",
+       "name": "Sarthak",
+       "email": "sample@email.com",
+       "phone": "+919999999999"
+     }
+
+  
